@@ -3,4 +3,4 @@ library(tidyverse)
 data(murders)
 
 murders %>% ggplot(aes(population,total, colour = region)) +
-  geom_point(size = 2)
+  geom_point(size = 12)
